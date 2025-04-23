@@ -1,0 +1,95 @@
+/* Import fun Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #2c2c2c;
+  margin: 0;
+  background: url('https://www.transparenttextures.com/patterns/white-wall-3.png');
+}
+
+.header {
+  background-color: #f44336;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.main-content {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffffdd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #e53935;
+  margin-top: 2rem;
+  border-bottom: 2px solid #ffcdd2;
+  padding-bottom: 0.3rem;
+}
+
+ol, ul {
+  margin-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.mission-image {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 4px solid #f44336;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+iframe {
+  margin: 1.5rem 0;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.back-to-top {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #f44336;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+  color: #d32f2f;
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #ff8a80;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
